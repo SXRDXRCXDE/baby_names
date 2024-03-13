@@ -1,0 +1,19 @@
+.container {
+    @apply w-full flex flex-col items-center overflow-hidden duration-500 border-t border-[#f2f2f2] ;
+}
+
+.label {
+    @apply w-full h-24 px-8 text-start flex items-center justify-between cursor-pointer ;
+}
+
+.title {
+    @apply text-xl font-semibold max-[800px]:text-lg max-[500px]:text-base  ;
+}
+
+.arrow {
+    @apply text-xl duration-500 rounded-full active:bg-gray-500/50 p-2 ;
+}
+
+.answer {
+    @apply  w-full h-auto py-5 px-10 text-lg font-semibold  max-[800px]:text-base max-[500px]:text-[13px] text-[#4A699C] ;
+}
